@@ -15,7 +15,7 @@ public class PlayerUI : MonoBehaviour
 
     [Tooltip("UI Text to display Player's Name")]
     [SerializeField]
-    private Text playerNameText;
+    private TextMeshProUGUI playerNameText;
 
     [Tooltip("UI Slider to display Player's Health")]
     [SerializeField]
